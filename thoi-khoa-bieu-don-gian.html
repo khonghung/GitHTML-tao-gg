@@ -5,17 +5,29 @@
     <title>Thoi khoa bieu</title>
 </head>
 <style>
-    table.a {
+    #table1 {
         width: 34.3%;
         border-collapse: collapse;
-    }
-    table.b {
         color: blue;
+    }
+
+    #table2 {
+        text-align: center;
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+
+    #table2 tr td {
+        border: 1px solid black;
+    }
+
+    #orange {
+        background-color: orange;
     }
 
 </style>
 <body>
-<table class="b">
+<table id="table1">
     <th COLSPAN="2">Thoi khoa bieu</th>
 
     <tr>
@@ -25,6 +37,8 @@
 
 
         <div class="a">
+        </div>
+    </tr>
     <tr>
         <td> Giao vien: KhoaNV</td>
         <br>
@@ -35,7 +49,7 @@
         <td>Phong hoc: Class3/Lad3</td>
     </tr>
 </table>
-<table class="a" border="1">
+<table id="table2">
     <tr>
         <td></td>
         <td></td>
@@ -43,39 +57,36 @@
         <td bgcolor="yellow">thu3</td>
         <td bgcolor="yellow">thu5</td>
         <td bgcolor="yellow">thu7</td>
-
+    </tr>
+    <tr id="orange">
+        <td>Tuan</td>
+        <td>Ngay bat dau</td>
+        <td>Ngay ket thuc</td>
+        <td colspan="3">Mon hoc</td>
     </tr>
     <tr>
-        <td bgcolor="orange">Tuan</td>
-        <td bgcolor="orange">Ngay bat dau</td>
-        <td bgcolor="orange">Ngay ket thuc</td>
-        <td></td>
-        <td bgcolor="orange">Mon hoc</td>
-        <td></td>
+        <td >01</td>
+        <td>01/09/2009</td>
+        <td>05/09/2009</td>
+        <td>CF - T1,L1</td>
+        <td>CF - T2,L2</td>
+        <td>CF - T3,L3</td>
     </tr>
     <tr>
-        <td bgcolor="aqua">01</td>
-        <td bgcolor="aqua">01/09/2009</td>
-        <td bgcolor="aqua">05/09/2009</td>
-        <td bgcolor="aqua">CF - T1,L1</td>
-        <td bgcolor="aqua">CF - T2,L2</td>
-        <td bgcolor="aqua">CF - T3,L3</td>
+        <td>02</td>
+        <td>08/09/2009</td>
+        <td>12/09/2009</td>
+        <td>CF - T4,L4</td>
+        <td>CF Written Test</td>
+        <td>C - T1,L1</td>
     </tr>
     <tr>
-        <td bgcolor="aqua">02</td>
-        <td bgcolor="aqua">08/09/2009</td>
-        <td bgcolor="aqua">12/09/2009</td>
-        <td bgcolor="aqua">CF - T4,L4</td>
-        <td bgcolor="aqua">CF Written Test</td>
-        <td bgcolor="aqua">C - T1,L1</td>
-    </tr>
-    <tr>
-        <td bgcolor="aqua">03</td>
-        <td bgcolor="aqua">...</td>
-        <td bgcolor="aqua">...</td>
-        <td bgcolor="aqua">...</td>
-        <td bgcolor="aqua">...</td>
-        <td bgcolor="aqua">...</td>
+        <td>03</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
     </tr>
 </table>
 </body>
